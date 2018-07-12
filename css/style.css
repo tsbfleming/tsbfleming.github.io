@@ -1,0 +1,40 @@
+body {
+    background-color: lightgrey;
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+}
+
+aside {
+  flex: 1;
+}
+
+.container {
+  flex: 3;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+header {
+    padding-top: 100px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 30px;
+    align-self: flex-start;  
+  }
+
+  main {
+    dispay: flex;
+    justify-content: flex-end; 
+  }
+
+nav ul {
+  padding-top: 20px;
+}
+
+nav ul li {
+  display: inline;
+  padding-right: 30px;
+  padding-left: 4px;
+  font-weight: lighter;
+}
