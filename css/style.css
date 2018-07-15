@@ -1,13 +1,10 @@
 body {
     display: flex;
     font-family: 'Roboto Slab', serif;
-    background-image: url(../images/arch-cover.jpg);
+    background-image: url(../images/texture.png);
     height: 100%;
     position: relative;
-    opacity: 0.05;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    opacity: 0.9;
 
 }
 
@@ -44,7 +41,6 @@ aside {
     font-size: 14px;
     margin-right: 20px;
     margin-top: 5vh;
-    color: grey;
     font-weight: 100;
     line-height: 16px;
 
@@ -97,7 +93,7 @@ h3{
 }
 
 .recent-work{
-    background: rgba(129, 129, 129, 0.2);
+    background: lightgrey;
     font-weight: 700;
     font-size: 20px;
 }
@@ -167,4 +163,9 @@ img {
     padding-left: 20px;
     padding-right: 20px;
 
+}
+
+footer{
+    height: 50px;
+    background-color: rgba(51, 234, 240, 0.9);
 }
