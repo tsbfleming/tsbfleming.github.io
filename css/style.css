@@ -1,20 +1,53 @@
 body {
     display: flex;
     font-family: 'Roboto Slab', serif;
-    background: url("../images/arch-cover.jpg");
+
+}
+
+.bgimg{
+    height: 100%;
+    position: relative;
+    opacity: 0.20;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 aside {
   flex: 3;
-  margin-top: 50px;
-  text-align: right;
-  font-weight: 200px;
-  font-size: 50px;
-  margin-right: 20px;
-  margin-top: 22vh;
-  
-  
+ 
 }
+
+.about-overview{
+    text-align: right;
+    font-weight: lighter;
+    font-size: 45px;
+    margin-right: 20px;
+    margin-top: 30vh;
+}
+
+.blue {
+    
+    font-weight: 500;
+}
+
+.skill-heading{
+    text-align: right;
+  
+    margin-right: 20px;
+    font-size: 20px;
+}
+.skills{
+    text-align: right;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: 5vh;
+    color: grey;
+    font-weight: 100;
+    line-height: 16px;
+
+}
+
 
 .container {
 
@@ -29,7 +62,7 @@ header {
     padding-top: 100px;
     box-sizing: border-box;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 50px;
     align-self: flex-start;  
   }
 
@@ -62,7 +95,7 @@ h3{
 }
 
 .recent-work{
-    background: rgba(29, 188, 194, 0.2);
+    background: rgba(129, 129, 129, 0.2);
     font-weight: 700;
     font-size: 20px;
 }
